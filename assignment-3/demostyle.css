@@ -1,0 +1,21 @@
+body {background: 6C9CFF;}
+
+
+h1 {color: white; background-color: FFDB15;
+    font-weight: bold;
+    border-bottom: 10px solid white ;
+}
+
+p {background-color: #FFDB15;
+color: white;} 
+
+.first-paragraph { 
+    font-size: 50px;
+    font-family: "roboto slab", arial, sans-serif;
+    border: 3px solid white;
+    border-bottom: 15px solid white;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 30px;
+    margin: 75px;
+}
