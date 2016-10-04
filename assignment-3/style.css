@@ -70,7 +70,7 @@ a.nav-link {
     padding: 10px 15px;
     border: 2px solid rgba (255,255, 2555, 0);}
 
-a.nav-link: hover {
+a.nav-link:hover {
     color: #FFD86B;
     border-color: #FFD86B;}
 
@@ -79,7 +79,17 @@ a.nav-link: hover {
 .main-content {
     padding: 20px;
     text-align: center;}
+    
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+    margin: 20px auto;}
 
+.card-title {
+    padding: 10px 20px;
+    margin: 20px 0 10px 0;
+    font-size: 24px;}
 
 /* Footer */
 
@@ -96,19 +106,6 @@ footer {
 .footer-link: hover {
     color: #d69e00;
     text-decoration: underline;}
-
-/* Home */
-
-.card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    width: 400px;
-    margin: 10px auto;}
-
-.card-title {
-    padding: 10px 20px;
-    margin: 20px 0 10px 0;
-    font-size: 24px;}
 
 
 /*About*/
