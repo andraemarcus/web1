@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Abel'; 
+@import 'https://fonts.googleapis.com/css?family=Abel|Anton';
+@import 'https://fonts.googleapis.com/css?family=Abel|Anton|Gudea';
+body {
+    background-color: FFF668
+}
+
+.large {
+    color: black;
+    font-size: 100px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    width: 800px;
+    border: 4px solid white;
+    line-height: 1em;
+    text-decoration: underline;
+    transition: all 2s ease;
+    
+}
+
+.smaller {
+    color: black;
+    font-size: 50px;
+    font-family:'Gudea', sans-serif;
+    text-align: center;
+     width: 800px;
+}
+
+a {
+   color: #000000;
+   font-size: 20px;
+   text-decoration: none;
+   text-align: center;
+   border: 10px solid rgba(255, 255, 255, 0);
+   padding: 10px 20px 10px 20px;
+   border-radius: 1px;
+   text-transform: uppercase;
+   margin: 0 30px;
+   letter-spacing: .05em;
+   transition: all 1s ease;
+}
+
+.large:hover {
+color: red;}
+
+
+a:hover {
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}

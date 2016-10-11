@@ -22,3 +22,25 @@ img {
   min-height: 400px;
   min-width: 400px;
 }
+
+a {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+   border: 1px solid rgba(255, 255, 255, 0);
+   padding: 10px 20px 10px 20px;
+   border-radius: 5px;
+   text-transform: uppercase;
+   margin: 0 30px;
+   letter-spacing: 0.2em;
+   transition: all .5s ease;
+}
+
+.large:hover
+color: pink;
+
+
+a:hover {
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
