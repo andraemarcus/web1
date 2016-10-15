@@ -144,6 +144,12 @@ footer {
 
 .card {
     background-color: #fff;
+    border: 1px solid #ddd;
+    width: 300px;
+    margin: 20px auto;}
+
+a.card {
+    background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
     width: calc(33.3% - 20px);
     min-height: 310px;
@@ -175,10 +181,9 @@ footer {
 /*About*/
 
 .about-photo {
-    width: 1200px;
-    height:1200px;
-    border-radius: 1200px;
-    background-image: url('images/andrae_marcus.jpg');
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);}
 
 
@@ -225,5 +230,3 @@ dd{
     padding: 20px;
     margin: 20px auto;
     width: 860px;}
-
-
