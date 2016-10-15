@@ -144,12 +144,6 @@ footer {
 
 .card {
     background-color: #fff;
-    border: 1px solid #ddd;
-    width: 300px;
-    margin: 20px auto;}
-
-a.card {
-    background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
     width: calc(33.3% - 20px);
     min-height: 310px;
@@ -188,11 +182,25 @@ a.card {
 
 
 .about-list-container {
-    border: 8px solid #ddd;
+    border-left: 5px solid #d69e00;
+    margin-bottom: 50px;
+    padding: 20px 50px;
     text-align: left;
-    padding: 20px;
-    margin: 20px;}
+}
+    
+.about-list-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #d69e00;
+}
 
+.about-list {
+    font-size: 24px;
+}
+
+.about-list li {
+    margin: 1em auto;
+}
 
 /* Search */
 .search-placeholder {
