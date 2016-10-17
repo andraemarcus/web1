@@ -98,9 +98,9 @@ a.nav-link:hover {
     width: 0;
     height: 0;
     color: rgba(255, 255, 255, 0);
-    padding:79px 26px 0 0;
-    background-image: url('images/logo.png');
-    background-size: 79px 26px;
+    padding:100px 81px 0 0;
+    background-image: url('images/logo_bw.png');
+    background-size: 100px 81px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -114,8 +114,6 @@ a.nav-link:hover {
 /* Main content */
 
 .main-content {
-    padding: 20px;
-    text-align: center;
     margin: 50px auto;
     width: 960px;
 }
@@ -146,7 +144,7 @@ footer {
     background-color: #fff;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
     width: calc(33.3% - 20px);
-    min-height: 310px;
+    min-height: 330px;
     margin: 10px;
     float: left;
     text-decoration: none;
@@ -166,7 +164,7 @@ footer {
 }
     
 .card-description {
-    font-size: 12px;
+    font-size: 14px;
     padding: 0 20px;
     margin: 0 0 20px 0;
     display: inline-block;
