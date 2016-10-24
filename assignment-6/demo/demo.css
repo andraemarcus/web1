@@ -1,0 +1,50 @@
+body {
+    background-color: #FFA00D;
+}
+
+.hero {
+    background-color: #224d6d;
+    padding: 200px 200px 300px 500px;
+    background-image: url("blue-blue.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.coffee {
+    background-color: #224d6d;
+    padding: 200px 200px 300px 500px;
+    background-image: url("coffee.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center -1920px;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.spacer {
+    height: 500px;}
+
+.square {
+    margin-top:150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    background-color: 
+    
+}
+
+.card {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 28%;
+    margin: 20px 2%;
+    padding: 100px 300px 100px 100px;
+}
