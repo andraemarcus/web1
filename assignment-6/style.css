@@ -8,7 +8,7 @@
 /* Body Images */
 
 #home .hero {
- background-image: url('images/turntable.jpeg');
+ background-image: url('images/turntable.jpg');
  /*photo by NASA https://hd.unsplash.com/photo-1451186859696-371d9477be93 */
 }
 #about .hero {
@@ -53,13 +53,14 @@ a: hover {
 
 .hero-card { 
     box-sizing: border-box;
-    background-color: rgba(7,8,7, 0.73);
-    color: #efefef;
+    background-color: rgba(8,7,8, 0.70);
+    color: #fff;
     margin: 110px auto 60px auto;
     padding: 50px;
     max-width: 960px;
     text-align: center;
-    box-shadow: 2px 1px 4px rgba (0,0,0,0.3);}
+    box-shadow: 2px 1px 4px rgba (0,0,0,0.3);
+}
     
 .hero-card-title {
     font-family: 'dosis', serif;
