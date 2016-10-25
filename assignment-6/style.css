@@ -8,7 +8,7 @@
 /* Body Images */
 
 #home .hero {
- background-image: url('images/home.jpg');
+ background-image: url('images/turntable.jpeg');
  /*photo by NASA https://hd.unsplash.com/photo-1451186859696-371d9477be93 */
 }
 #about .hero {
@@ -24,7 +24,7 @@
  /* Photo from drew collins https://unsplash.com/?photo=U713MZX1x0w */
 }
 #assignments .hero {
- background-image: url('images/coast.jpg');
+ background-image: url('images/notes.jpg');
  /* photo from Stefan Kunze https://unsplash.com/?photo=_SmZSuZwkHg*/
 }
 /*General styling */
