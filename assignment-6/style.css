@@ -16,7 +16,7 @@
  /* photo from @veeterzy https://unsplash.com/search/blueberries?photo=Hc42xXu_WOg*/
 }
 #pizza .hero {
- background-image: url('images/pizza.jpg');
+ background-image: url('images/pizza_2.jpg');
  /* photo from Jakub Kapusnak https://foodiesfeed.com/flatwhite-coffee-closeup-berlin */
 }
 #search .hero {
@@ -27,6 +27,7 @@
  background-image: url('images/notes.jpg');
  /* photo from Stefan Kunze https://unsplash.com/?photo=_SmZSuZwkHg*/
 }
+
 /*General styling */
 body { 
 font-family: 'abel', arial, sans-serif;
@@ -63,12 +64,12 @@ a: hover {
 }
     
 .hero-card-title {
-    font-family: 'dosis', serif;
+    font-family: 'abel', serif;
     margin: 0;
     font-size: 50px;}
     
 .hero-card-description {
-    font-family: 'dosis', serif;
+    font-family: 'abel', serif;
     font-size: 30px;
     font-weight: 300;
     margin: 20px 0;}
@@ -188,7 +189,7 @@ footer {
 .card-title {
     padding: 10px 20px;
     margin: 20px 0 10px 0;
-    font-family: 'abel';
+    font-family: 'dosis';
     font-size: 24px;
     color: #000;
 }
