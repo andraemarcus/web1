@@ -7,10 +7,11 @@ body {
 /*Navigation */
 
 .main-nav {
-    background-color:#40403E;
+    background-color: rgba(0, 0, 0, 0.90);
     font-size: 20px;
     text-align: center;
     position: fixed;
+    width: 100%;
   
 }
 
