@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+
+/*General styling */
+
 body {
     background: white;
-    font-family: arial, sans-serif;
+    font-family: 'khula';
     margin: 0;
 }
 
@@ -8,7 +13,7 @@ body {
 
 .main-nav {
     background-color: rgba(0, 0, 0, 0.90);
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -17,33 +22,18 @@ body {
 
 .nav-link {
     text-decoration: none;
+    color: white;
     padding: 10px 20px;
-    border-radius: 3px;
     margin: 5px;
     display: inline-block;
 }
 
 
 .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.nav-teal {
-    color: #62B7BB;
-}
+    background-color: rgba(255, 255, 255, 0.90);
+    color: #e7bc71;}
 
 
-.nav-blue {
-    color: #288bcd;
-}
-
-.nav-red {
-    color: #ee5573;
-}
-
-.nav-yellow {
-    color: #ffa73a;
-}
 
 .hero {
     color: #fffff;
@@ -51,22 +41,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    min-height: 400px;
+    min-height: 600px;
     text-align: center;
     color: white;
 }
-.hero-yellow {
-    background-image: url('images/city-yellow.jpg');
-}
-
-.hero-blue {
-    background-image: url('images/snow-blue.jpg');
-}
-
-.hero-red {
-    background-image: url('images/mountains-red.jpg');
-}
-
 
 
 .hero-h1 {
@@ -78,47 +56,18 @@ body {
     text-align: center;
 }
 
-.left-box {
-    background-color: #ffa73a;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
+.banner-one {
+    background-color: #fffff;
+    background-image: url("images/mountains-red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+    text-align: center;
+    color: white;
 }
+  
 
-.left-box-yellow {
- background-color: #ffa73a;   
-}
-
-.left-box-blue {
- background-color: #288bcd;   
-}
-
-.left-box-red {
- background-color: #ee5573;   
-}
-
-.right-box {
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    vertical-align: top; 
-}
-
-
-.right-box-yellow {
-   border: 2px solid #ffa73a3;
-}
-
-
-.right-box-blue {
-   border: 2px solid #288bcd;
-}
-
-.right-box-red {
-   border: 2px solid #ee5573;
-}
 
 
 
