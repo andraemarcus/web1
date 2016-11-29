@@ -58,13 +58,14 @@ body {
 
 .banner-one {
     background-color: #fffff;
-    background-image: url("images/mountains-red.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     min-height: 600px;
     text-align: center;
     color: white;
+    margin:0;
 }
   
 
@@ -72,6 +73,8 @@ body {
 
 
 .paragraph-text {
-    padding: 50px;
-    text-align: left; 
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    padding: 100px;
 }
