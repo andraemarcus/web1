@@ -22,30 +22,29 @@ body {
 
 .nav-link {
     text-decoration: none;
+    box-sizing: border-box;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'khula';
     color: white;
     padding: 10px 20px;
-    margin: 5px;
+    margin: 10px 5px;
     display: inline-block;}
 
 
 .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.90);
     color: #e7bc71;}
-
+    
 .logo {
     float: left;
-    margin-right: 100px;
-    width: 0;
-    height: 0;
+    margin-right: 200px;
     color: rgba(255, 255, 255, 0);
-    padding:100px 200px 0px 0px;
+    padding: 67px 200px 0px 0px;
     background-image: url('images/jitter-cup-logo.png');
-    background-size: 100px 200px;
-    background-position: left;
+    background-size: 200px 67px;
     background-repeat: no-repeat;
     transition: all 0.2s ease;}
-}
-
 
 /*Hero Card*/
 
