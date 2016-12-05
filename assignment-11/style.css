@@ -32,6 +32,21 @@ body {
     background-color: rgba(255, 255, 255, 0.90);
     color: #e7bc71;}
 
+.logo {
+    float: left;
+    margin-right: 100px;
+    width: 0;
+    height: 0;
+    color: rgba(255, 255, 255, 0);
+    padding:100px 200px 0px 0px;
+    background-image: url('images/jitter-cup-logo.png');
+    background-size: 100px 200px;
+    background-position: left;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease;}
+}
+
+
 /*Hero Card*/
 
 .hero {
