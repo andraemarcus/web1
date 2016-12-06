@@ -57,6 +57,16 @@ body {
     min-height: 600px;
     text-align: center;
     color: white;}
+    
+.hero-2 {
+  color: #fffff;
+    background-image: url('images/coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+    text-align: center;
+    color: white;}
 
 
 .hero-h1 {
@@ -78,6 +88,17 @@ body {
     text-align: center;
     color: white;
     margin:0;}
+    
+.banner-two {
+    background-color: #ffffff;
+    background-image: url("images/coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    background-position: center center;
+    min-height: 900px;
+    text-align: center;
+    color: white;
+    margin: 0;}
   
 
 .paragraph-text {
