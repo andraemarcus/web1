@@ -23,7 +23,7 @@ body {
 .nav-link {
     text-decoration: none;
     box-sizing: border-box;
-    line-height: 30px;
+    line-height: 38px;
     font-size: 20px;
     font-family: 'khula';
     color: white;
@@ -40,9 +40,9 @@ body {
     float: left;
     margin-right: 200px;
     color: rgba(255, 255, 255, 0);
-    padding: 67px 200px 0px 0px;
+    padding: 84px 250px 0px 0px;
     background-image: url('images/jitter-cup-logo.png');
-    background-size: 200px 67px;
+    background-size: 250px 84px;
     background-repeat: no-repeat;
     transition: all 0.2s ease;}
 
