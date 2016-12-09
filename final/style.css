@@ -221,4 +221,23 @@ footer {
 }
 
 
-/*Twitter*/
+/*Contact*/
+
+
+.hero-3 {
+    color: #fffff;
+    background-image: url('images/coffee_table.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+    text-align: center;
+    color: white;}
+
+.box-card-4 {
+    background-color: #ffffff;
+    color: black;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
