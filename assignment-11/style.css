@@ -138,10 +138,11 @@ footer {
     margin-left: auto;
 }
     
-.box-card-icons {
-    width: 400px;
+.box-card-icon-1 {
+    float: center;
+    width: 200px;
+    height: 200px;
     display: inline-block;
-    vertical-align: top;
 }
 
 .instruction-title-left {
@@ -218,3 +219,6 @@ footer {
     display: inline-block;
     vertical-align: top;
 }
+
+
+/*Twitter*/

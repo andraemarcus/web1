@@ -1,0 +1,224 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+
+/*General styling*/
+
+body {
+    background: white;
+    font-family: 'khula';
+    margin: 0;}
+
+/*Navigation */
+
+.main-nav {
+    background-color: rgba(0, 0, 0, 0.90);
+    font-size: 16px;
+    text-align: right;
+    position: fixed;
+    width: 100%;}
+
+
+.nav-link {
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 38px;
+    font-size: 20px;
+    font-family: 'khula';
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    display: inline-block;}
+
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.90);
+    color: #e7bc71;}
+    
+.logo {
+    float: left;
+    margin-right: 200px;
+    color: rgba(255, 255, 255, 0);
+    padding: 84px 250px 0px 0px;
+    background-image: url('images/jitter-cup-logo.png');
+    background-size: 250px 84px;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease;}
+
+/*Hero Card*/
+
+.hero {
+    color: #fffff;
+    background-image: url('images/home_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+    text-align: center;
+    color: white;}
+
+
+.hero-h1 {
+    margin: 0;
+    padding-top: 100px;}
+
+/*Main Content*/
+
+.main-content {
+    text-align: center;}
+
+.banner-one {
+    background-color: #fffff;
+    background-image: url("images/home_photo_b.png");
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    background-position: center center;
+    min-height: 900px;
+    text-align: center;
+    color: white;
+    margin:0;}
+    
+.paragraph-text {
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    padding: 100px;}
+    
+/*Footer*/
+footer {
+    background-color: #000000;
+    padding: 75px;}
+    
+
+.left-box-text {
+    background-color: #000000;
+    color:white;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px;
+    padding: 20px 20px 50px 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/*Brewing*/ 
+
+.hero-2 {
+    color: #fffff;
+    background-image: url('images/coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+    text-align: center;
+    color: white;}
+    
+.box-card {
+    background-color: #262624;
+    color: white;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-card-2 {
+    background-color: white;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-card-3 {
+    background-color: #e7bc71;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+.box-card-icon-1 {
+    float: center;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.instruction-title-left {
+     color: #d19a46;
+     font-family: 'khula';
+     font-size: 60px;
+     width: 400px;
+     text-align: center;
+     display: inline-block;
+     vertical-align: top;
+     margin-top: 40px;
+} 
+
+.instruction-text-left {
+    color: black;
+    font-family: khula;
+    text-align: left;
+    font-size: 16px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.instruction-title-right {
+     color: #d19a46;
+     font-family: 'khula';
+     font-size: 60px;
+     width: 400px;
+     text-align: center;
+     display: inline-block;
+     vertical-align: top;
+     margin-top: 40px;
+}  
+
+.instruction-text-right {
+    color: black;
+    font-family: khula;
+    text-align: left;
+    font-size: 16px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 
+}
+
+    
+.recipe-title {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.align {
+    margin-left: auto;
+    margin-right: auto;
+    width: 810px;
+}
+
+.recipe-text-2 {
+    color: white;
+    width: 400px;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.recipe-text-3 {
+    color: #d19a46;
+    font-size: 14px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/*Twitter*/
