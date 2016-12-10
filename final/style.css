@@ -17,7 +17,8 @@ body {
     font-size: 16px;
     text-align: right;
     position: fixed;
-    width: 100%;}
+    width: 100%;
+}
 
 
 .nav-link {
@@ -139,10 +140,10 @@ footer {
 }
     
 .box-card-icon-1 {
-    float: center;
-    width: 200px;
-    height: 200px;
+    width: 400px;
     display: inline-block;
+    vertical-align: top;
+    text-align: center;
 }
 
 .instruction-title-left {
@@ -221,36 +222,18 @@ footer {
 }
 
 
-/*Contact*/
+/*About*/
 
 
 .hero-3 {
     color: #fffff;
-    background-image: url('images/coffee_table.jpg');
+    background-image: url('images/about.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    min-height: 600px;
+    min-height: 400px;
     text-align: center;
     color: white;}
-
-.box-card-4 {
-    background-color: #ffffff;
-    height: 600px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.about-us {
-    color: black;
-    font-family: khula;
-    text-align: left;
-    font-size: 16px;
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 
-}
 
 .paragraph-text-2 {
     color:black;
