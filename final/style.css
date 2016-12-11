@@ -250,4 +250,11 @@ footer {
 
 
     
-  
+  .box-card-contact {
+    background-color: #ffffff;
+    font-family: 'khula'
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 50px 20px 100px;
+}
