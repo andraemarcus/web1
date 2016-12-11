@@ -133,7 +133,7 @@ footer {
 }
 
 .box-card-3 {
-    background-color: #e7bc71;
+    background-color: #ffffff;
     height: 300px;
     margin-right: auto;
     margin-left: auto;
@@ -222,16 +222,39 @@ footer {
 }
 
 
-/*About*/
+/*Contact*/
 
 
 .hero-3 {
+    color: #fffff;
+    background-image: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 600px;
+    text-align: center;
+    color: white;}
+    
+  .box-card-contact {
+    background-color: #ffffff;
+    font-family: 'khula'
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 50px 20px 100px;
+}
+
+
+/*About*/
+
+
+.hero-4 {
     color: #fffff;
     background-image: url('images/about.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    min-height: 400px;
+    min-height: 600px;
     text-align: center;
     color: white;}
 
@@ -247,14 +270,3 @@ footer {
     font-size: 20px;
     text-align: center;
     padding: 100px;}
-
-
-    
-  .box-card-contact {
-    background-color: #ffffff;
-    font-family: 'khula'
-    height: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 100px 50px 20px 100px;
-}
