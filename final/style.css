@@ -23,7 +23,7 @@ a: hover {
 /*Navigation */
 
 .main-nav {
-    background-color: rgba(0, 0, 0, 0.90);
+  
     font-size: 16px;
     text-align: right;
     position: fixed;
@@ -32,15 +32,19 @@ a: hover {
 
 
 .nav-link {
-    text-decoration: none;
     box-sizing: border-box;
+    color: #fff;
+    height: 40px;
     line-height: 38px;
     font-size: 20px;
     font-family: 'khula';
-    color: white;
-    padding: 10px 20px;
+    display: inline-block;
     margin: 10px 5px;
-    display: inline-block;}
+    padding: 0px 15px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 2555, 0);
+    transition: all 0.2s ease;
+}
 
 
 .nav-link:hover {
@@ -91,17 +95,17 @@ a: hover {
     text-align: center;}
 
 .banner-one {
-    min-height: 600px;
-    text-align: center;
-    color: white;
-    margin:0;}
-    
-.paragraph-text {
     background-color: #fffff;
     background-image: url("images/home_photo_b.png");
     background-repeat: no-repeat;
     background-size: 1280px;
     background-position: center center;
+    min-height: 200px;
+    text-align: center;
+    color: white;
+    margin:0;}
+    
+.paragraph-text {
     color:black;
     font-size: 40px;
     text-align: center;
@@ -117,7 +121,7 @@ footer {
     background-color: #000000;
     color:white;
     width: 400px;
-    height: 300px;
+    height: 100px;
     display: inline-block;
     vertical-align: top;
     margin-right: 100px;
